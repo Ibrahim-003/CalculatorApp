@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [repo](https://your-solution-url.com)
-- Live Site URL: [liveSite](https://your-live-site-url.com)
+- Solution URL: [repo](https://github.com/Ibrahim-003/CalculatorApp)
+- Live Site URL: [liveSite](https://ibrahim-003.github.io/CalculatorApp/)
 
 ## My process
 
