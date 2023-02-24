@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/variables.css">
+  <link rel="stylesheet" href="./assets/css/page.css">
+
+  <title>Calculator app</title>
+</head>
+<body class="root-container">
+    <main class='calculator container white'>
+        <section class='calculator__header'>
+            <h1 class="calculator__title">calc</h1>
+            <div class="calculator__theme">
+                <span class="calculator__theme-text">Theme</span>
+                <div class="toggler-container">
+                    <div class="label-container">
+                        <label for="one">1</label>
+                        <label for="two">2</label>
+                        <label for="three">3</label>
+                    </div>
+                    <div class="switcher">
+                        <input type="radio" class="button button--opacity" name="toggle-theme" id="one">
+                        <input type="radio" class="button" name="toggle-theme" id="two">
+                        <input type="radio" class="button" name="toggle-theme" id="three">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="calculator__screen">
+            <div class="calculator__display"></div>
+        </section>
+        <section class="calculator__body">
+            <button class="calculator__btn calculator__btn-num seven" id="7">7</button>
+            <button class="calculator__btn calculator__btn-num eight" id="8">8</button>
+            <button class="calculator__btn calculator__btn-num nine" id="9">9</button>
+            <button class="calculator__btn calculator__btn-operator backspace" id="backspace">del</button>
+            <button class="calculator__btn calculator__btn-num four" id="4">4</button>
+            <button class="calculator__btn calculator__btn-num five" id="5">5</button>
+            <button class="calculator__btn calculator__btn-num six" id="6">6</button>
+            <button class="calculator__btn calculator__btn-sign sum" id="+">+</button>
+            <button class="calculator__btn calculator__btn-num one" id="1">1</button>
+            <button class="calculator__btn calculator__btn-num two" id="2">2</button>
+            <button class="calculator__btn calculator__btn-num three" id="3">3</button>
+            <button class="calculator__btn calculator__btn-sign minus" id="-">-</button>
+            <button class="calculator__btn calculator__btn-sign point" id=".">.</button>
+            <button class="calculator__btn calculator__btn-num zero" id="0">0</button>
+            <button class="calculator__btn calculator__btn-sign divide" id="/">&divide;</button>
+            <button class="calculator__btn calculator__btn-sign times" id="*">&times;</button>
+            <button class="calculator__btn calculator__btn-operator clear" id="clear">reset</button>
+            <button class="calculator__btn calculator__btn-sign equal" id="equal">=</button>
+        </section>
+    </main>
+    <script src="./assets/js/calculator.js"></script>
+    <script src="./assets/js/themes.js"></script>
+</body>
+</html>
